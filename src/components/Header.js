@@ -12,10 +12,10 @@ export class Header extends Component {
             <div>
                 <Navbar bg="dark" variant="dark">
                     <Container>
-                        <Navbar.Brand>Balsem Music </Navbar.Brand>
+                        <Navbar.Brand>Balsem  </Navbar.Brand>
                         <Nav className="me-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/favoritefood">Favorite Food</Nav.Link>
+                            <Nav.Link to="/">Home</Nav.Link>
+                            <Nav.Link to="/favoritefood">Favorite Food</Nav.Link>
 
                         </Nav>
                     </Container>
