@@ -14,8 +14,8 @@ export class Header extends Component {
                     <Container>
                         <Navbar.Brand>Balsem  </Navbar.Brand>
                         <Nav className="me-auto">
-                            <Nav.Link to="/">Home</Nav.Link>
-                            <Nav.Link to="/favoritefood">Favorite Food</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/favoritefood">Favorite Food</Nav.Link>
 
                         </Nav>
                     </Container>

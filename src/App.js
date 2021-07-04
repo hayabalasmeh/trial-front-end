@@ -26,7 +26,7 @@ export class App extends Component {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path='/favoritefood'>
+            <Route exact path='/favoritefood'>
               <FavoriteFood />
 
             </Route>
