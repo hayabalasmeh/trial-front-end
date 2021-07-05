@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-
+import {
+    Link
+} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -11,14 +13,14 @@ export class Header extends Component {
         return (
             <div>
                 <Navbar bg="dark" variant="dark">
-                    <Container>
-                        <Navbar.Brand>Balsem  </Navbar.Brand>
-                        <Nav className="me-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/favoritefood">Favorite Food</Nav.Link>
 
-                        </Nav>
-                    </Container>
+                    <Navbar.Brand>Balsem  </Navbar.Brand>
+
+                    <Link to="/">Home</Link>
+                    <Link to="/favoritefood">Favorite Food</Link>
+
+
+
                 </Navbar>
 
             </div>
